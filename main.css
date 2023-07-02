@@ -26,27 +26,30 @@ nav {
 
 
 /* Header item image container style */
-.header-item-image-container{
+.header-item-image-container {
     display: flex;
     align-items: center;
     gap: 10px;
+    cursor: pointer;
 }
-.header-item-image-container img{
+
+.header-item-image-container img {
     width: 80px;
     height: auto;
     border-radius: 50%;
 }
 
-.header-item-image-container h1{
+.header-item-image-container h1 {
     color: rgb(155, 74, 231);
 }
-.header-item-image-container p{
+
+.header-item-image-container p {
     color: mediumvioletred;
 }
 
 
 /* Header item link container */
-.header-item-link-container ul{
+.header-item-link-container ul {
     list-style: none;
     display: flex;
 }
@@ -55,4 +58,38 @@ nav {
     text-decoration: none;
     font-size: 1.2rem;
     padding: 10px;
+    transition: color .5s, border .5s;
+}
+
+.header-item-link-container ul li a:hover {
+    color: orangered;
+    border-bottom: 1px solid orangered;
+    border-radius: 30px;
+    /* background-image: linear-gradient(to left, orangered, rgb(127, 115, 255)); */
+}
+
+
+/* Header register and login item */
+.header-item-login-register-btn button {
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    background-color: transparent;
+}
+
+.header-item-login-register-btn button:hover {
+    color: orangered;
+}
+
+.header-item-login-register-btn button:nth-child(2) {
+    background-color: red;
+    color: white;
+    font-weight: 700;
+    transition: background-color .9s, color .9s;
+}
+
+.header-item-login-register-btn button:nth-child(2):hover {
+    background-color: olivedrab;
+    color: white;
 }
