@@ -1,8 +1,45 @@
-#header-children{
+#header-children {
     width: 100%;
-    height: 100vh;
-    background-image: url('./images/header-bannar-image-one.jpg');   
+    height: 70vh;
+    background-image: url('./images/header-bannar-image-one.jpg');
     background-repeat: no-repeat;
-    background-size: contain;
-    opacity: .3;
+    background-size: cover;
+    opacity: .5;
+    padding: 10% 5%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.header-text {
+    text-align: left;
+}
+
+.header-text h3 {
+    color: black;
+    opacity: .9;
+}
+
+.header-paragraph p {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: black;
+}
+
+.header-paragraph {
+    margin: 1em 0 2em;
+}
+
+.header-text a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    border: 2px solid;
+    border-radius: 30px;
+    padding: 10px;
+    transition: background-color 1s;
+}
+
+.header-text a:hover{
+    border: 2px solid transparent;
+    background-color: rgb(17, 93, 97);
+    color: white;
 }
