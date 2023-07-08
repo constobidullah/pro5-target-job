@@ -1,6 +1,10 @@
 #categories-container {
     text-align: center;
-    /* margin: 0 auto; */
+    margin-bottom: 3em;
+}
+
+#categories-container h1{
+    font-size: 3rem;
 }
 
 .categories-item-parent {
@@ -22,7 +26,7 @@
     transition: border 1s;
 }
 
-.categories-item:hover{
+.categories-item:hover {
     border: 5px solid rgb(243, 240, 240);
 }
 
@@ -36,4 +40,115 @@
 
 .categories-item-children p {
     padding: 5px;
+}
+
+/* Target job intro */
+
+#target-job-intro {
+    padding: 0 100px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 20px;
+}
+
+.target-job-intro-child-one {
+    position: relative;
+}
+
+.target-job-intro-child-one img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 0 0 10px;
+}
+
+.intro-one-text {
+    background-color: rgb(135, 85, 182);
+    padding: 10px;
+    margin: 0 55px;
+    border-top: 20px solid rgb(34, 196, 196);
+    border-radius: 15px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: white;
+}
+
+.target-job-intro-child-two {
+    background-color: rgb(0, 183, 255);
+    padding: 50px 50px 90px;
+}
+
+.target-job-intro-child-two h1 {
+    font-size: 2.5rem;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.target-job-intro-child-two p {
+    font-size: 1.5rem;
+    color: white;
+    margin-bottom: 10px;
+    margin-bottom: 40px;
+}
+
+.target-job-intro-child-two p a {
+    text-decoration: none;
+}
+
+.intro-link a:nth-child(1) {
+    font-size: 1.1rem;
+    border: 2px solid white;
+    border-radius: 30px;
+    text-decoration: none;
+    padding: 10px 30px;
+    margin-right: 20px;
+    color: white;
+    transition: background-color .7s;
+}
+
+.intro-link a:nth-child(1):hover {
+    background-color: white;
+    color: blue;
+}
+
+.intro-link a:nth-child(2) {
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: white;
+    transition: background-color .7s;
+}
+
+.intro-link a:nth-child(2):hover {
+    background-color: white;
+    color: burlywood;
+    border: 2px solid white;
+    border-radius: 30px;
+    padding: 10px 30px;
+}
+
+.target-job-intro-child-three {
+    position: relative;
+}
+
+.target-job-intro-child-three img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 0 10px 10px 0;
+}
+
+.intro-three-text {
+    background-color: rgb(255, 87, 87);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+}
+.intro-three-text a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
 }
