@@ -17,13 +17,13 @@
 
 .header-text h3 {
     font-size: 2rem;
-    color: aliceblue;
+    color: black;
 }
 
 .header-paragraph p {
     font-size: 3.4rem;
     font-weight: 800;
-    color: white;
+    color: black;
 }
 
 .header-paragraph {
@@ -47,7 +47,7 @@
 
 .header-from {
     padding: 60px 40px;
-    background-color: blueviolet;
+    background-image: linear-gradient( to top, blueviolet, rgb(141, 93, 185));
     border-radius: 10px;
 }
 
