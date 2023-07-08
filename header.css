@@ -6,6 +6,7 @@
     background-size: cover;
     opacity: .5;
     padding: 10% 5%;
+    margin-bottom: 10em;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
@@ -42,4 +43,8 @@
     border: 2px solid transparent;
     background-color: rgb(17, 93, 97);
     color: white;
+}
+
+.header-from{
+    background-color: blueviolet;
 }
