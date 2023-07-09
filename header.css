@@ -75,9 +75,9 @@
     margin-left: 10px;
 }
 
-/* .find-job-item input:{
-    border: none;
-} */
+.find-job-item input:focus{
+    outline: none;
+}
 .find-job-btn {
     margin-top: 20px;
 }
