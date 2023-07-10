@@ -141,3 +141,17 @@
     padding: 10px 20px;
     border-radius: 20px;
 }
+
+#browse-job{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#browse-job a{
+    text-decoration: none;
+    background-color: rgb(250, 102, 48);
+    color: white;
+    font-size: 2rem;
+    padding: 10px 50px;
+    border-radius: 30px;
+}
