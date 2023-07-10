@@ -1,0 +1,143 @@
+#recent-job-container {
+    margin: 0 50px 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.recent-job-item {
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 10px;
+    transition: box-shadow .7s;
+}
+
+.recent-job-item:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(100, 100, 100, 0.19);
+}
+
+.recent-job-image {
+    position: relative;
+}
+
+.recent-job-image img {
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+
+.company-posting-position {
+    position: absolute;
+    bottom: 5%;
+    left: 25%;
+    right: 25%;
+}
+
+.company-posting-position button:nth-child(1) {
+    color: white;
+    background-color: rgb(97, 11, 177);
+    padding: 5px 10px;
+    border: 0;
+    border-radius: 30px;
+}
+
+.company-posting-position button:nth-child(2) {
+    color: white;
+    background-color: rgb(88, 148, 185);
+    padding: 5px 10px;
+    border: 0;
+    border-radius: 30px;
+}
+
+.recent-company-details-container {
+    padding: 20px;
+}
+
+.recent-company-container {
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.recent-company {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+.recent-company img {
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: 0 0 25px rgb(194, 192, 192);
+}
+
+.favourite-love {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.favourite-love i {
+    color: rgb(189, 189, 255);
+}
+
+.favourite-love i:hover {
+    color: orange;
+}
+
+.location-and-timer-container {
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(197, 195, 195);
+}
+
+.location-and-timer-container i {
+    color: rgb(189, 189, 255);
+}
+
+.location {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.timer {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.apply-and-money-container {
+    height: 40px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.money {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.money i {
+    color: rgb(189, 189, 255);
+}
+
+.recent-apply-btn a {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    background-color: orange;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
