@@ -57,3 +57,42 @@
     padding: 5px;
     color: rgb(58, 58, 117);
 }
+
+#newsletter-form{
+    margin-top: 10px;
+    width: 100%;
+    background-color: rgb(209, 247, 247);
+    padding: 30px;
+    border-radius: 5px;
+}
+#newsletter-form h1{
+    padding-bottom: 20px;
+}
+.get-notified-container{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 5px;
+    border-radius: 50px;
+}
+.get-notified-container div{
+    margin-left: 10px;
+}
+
+.get-notified-container input{
+    border: none;
+    margin-left: 5px;
+}
+.get-notified-container input:focus{
+    outline: none;
+}
+
+.send-icon{
+    font-size: 1.5rem;
+    color: white;
+    background-color: rgb(84, 164, 255);
+    border-radius: 50%;
+    padding: 10px;
+}
