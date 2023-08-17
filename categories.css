@@ -21,25 +21,26 @@
     background-color: rgb(93, 82, 186);
     color: white;
     padding: 40px 10px;
-    border: 10px solid #393374;
+    border: 7px solid #393374;
     border-radius: 50%;
     transition: .5s;
 }
 
 .categories-item:hover {
-    border: 5px solid rgb(243, 240, 240);
+    border: 7px solid rgb(243, 240, 240);
 }
 
 .categories-item-children {
-    background-color: rgb(117, 117, 243);
+    background-color: #0dcaf0;
     position: absolute;
-    top: 0;
+    top: -5%;
     right: 0;
-    border-radius: 50%;
+    border-radius: 100%;
 }
 
 .categories-item-children p {
-    padding: 5px;
+    font-weight: 700;
+    padding: 10px;
 }
 
 /* Target job intro */
