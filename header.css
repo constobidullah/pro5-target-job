@@ -47,7 +47,7 @@
 
 .header-from {
     padding: 60px 40px;
-    background-image: linear-gradient( to top, blueviolet, rgb(141, 93, 185));
+    background-image: linear-gradient(to top, blueviolet, rgb(141, 93, 185));
     border-radius: 10px;
 }
 
@@ -75,9 +75,10 @@
     margin-left: 10px;
 }
 
-.find-job-item input:focus{
+.find-job-item input:focus {
     outline: none;
 }
+
 .find-job-btn {
     margin-top: 20px;
 }
@@ -118,4 +119,133 @@
     border: 1px solid transparent;
     background-color: white;
     color: blue;
+}
+
+
+@media screen and (max-width: 650px) and (min-width: 200px) {
+    #header-children {
+        width: 100%;
+        height: 60vh;
+        background-image: url('./images/header-bannar-image-one.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* opacity: .5; */
+        padding: 10% 5%;
+        margin-bottom: 5em;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .header-text {
+        text-align: left;
+        width: 100%;
+    }
+
+    .header-text h3 {
+        font-size: 2rem;
+        color: black;
+    }
+
+    .header-paragraph p {
+        font-size: 2.4rem;
+        font-weight: 800;
+        color: black;
+    }
+
+    .header-paragraph {
+        margin: 1em 0 2em;
+    }
+
+    .header-text a {
+        text-decoration: none;
+        font-size: 1rem;
+        border: 2px solid aliceblue;
+        border-radius: 30px;
+        padding: 10px;
+        transition: background-color 1s;
+    }
+
+    .header-text a:hover {
+        border: 2px solid transparent;
+        background-color: rgb(17, 93, 97);
+        color: white;
+    }
+
+    .header-from {
+        width: 100%;
+        padding: 60px 40px;
+        background-image: linear-gradient(to top, blueviolet, rgb(141, 93, 185));
+        border-radius: 10px;
+    }
+
+    .header-from h1 {
+        text-align: center;
+        color: white;
+    }
+
+    .find-job {
+        margin-top: 20px;
+        /* margin-left: 0; */
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .find-job-item {
+        background-color: white;
+        padding: 10px;
+        border-radius: 20px;
+        display: flex;
+    }
+
+    .find-job-item input {
+        border: none;
+        margin-left: 10px;
+    }
+
+    .find-job-item input:focus {
+        outline: none;
+    }
+
+    .find-job-btn {
+        margin-top: 20px;
+    }
+
+    .find-job-btn button {
+        background-color: rgb(103, 21, 179);
+        color: white;
+        font-size: 1.3rem;
+        width: 100%;
+        padding: 10px;
+        border: none;
+        border-radius: 30px;
+        transition: all 1s;
+    }
+
+    .find-job-btn button:hover {
+        background-color: rgb(39, 179, 179);
+        color: white;
+    }
+
+    #keyworkds {
+        margin-top: 30px;
+        color: white;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .keyworkds-item a {
+        text-decoration: none;
+        color: white;
+        border: 1px solid;
+        border-radius: 20px;
+        padding: 5px 10px;
+        transition: background-color 1s;
+    }
+
+    .keyworkds-item a:hover {
+        border: 1px solid transparent;
+        background-color: white;
+        color: blue;
+    }
 }
