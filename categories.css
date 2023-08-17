@@ -21,9 +21,9 @@
     background-color: rgb(93, 82, 186);
     color: white;
     padding: 40px 10px;
-    border: 5px solid rgb(46, 34, 58);
+    border: 10px solid #393374;
     border-radius: 50%;
-    transition: border 1s;
+    transition: .5s;
 }
 
 .categories-item:hover {
