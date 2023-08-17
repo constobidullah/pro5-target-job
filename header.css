@@ -47,31 +47,33 @@
 }
 
 .header-from {
-    padding: 60px 40px;
+    padding: 50px;
     background-image: linear-gradient(to top, blueviolet, rgb(141, 93, 185));
     border-radius: 10px;
 }
 
 .header-from h1 {
-    text-align: center;
-    color: white;
+    transform: scaleY(1.5);
+    font-weight: 800;
 }
 
 .find-job {
     margin-top: 20px;
     /* margin-left: 0; */
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
 }
 
 .find-job-item {
     background-color: white;
-    padding: 10px;
-    border-radius: 20px;
+    padding: 15px 10px;
+    border-radius: 50px;
     display: flex;
 }
 
 .find-job-item input {
+    width: 100%;
     border: none;
     margin-left: 10px;
 }
@@ -89,9 +91,9 @@
     color: white;
     font-size: 1.3rem;
     width: 100%;
-    padding: 10px;
+    padding: 15px 10px;
     border: none;
-    border-radius: 30px;
+    border-radius: 50px;
     transition: all 1s;
 }
 
