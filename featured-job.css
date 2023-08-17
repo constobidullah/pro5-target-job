@@ -32,7 +32,6 @@
     box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.1);
 }
 
-
 .featured-image img {
     width: 50px;
     height: 50px;
@@ -100,13 +99,13 @@
 }
 
 .pagination-container {
-    background-color: #dde1e7;
+    margin: 100px 0 0 0;
     display: grid;
     justify-content: center;
     place-items: center;
     text-align: center;
     padding: 25px;
-    box-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94, 104, 121, 0.288);
+    /* box-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94, 104, 121, 0.288); */
 }
 
 .pagination {
