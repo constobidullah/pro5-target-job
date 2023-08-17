@@ -21,7 +21,7 @@
     transition: .3s;
 }
 
-.featured-job-main:nth-child(odd){
+.featured-job-main:nth-child(5){
     box-shadow: 0 0 80px 0 rgba(0, 0, 0, 0.1);
 }
 .featured-job-main:hover{
@@ -57,21 +57,22 @@
     background-color: rgb(106, 59, 150);
     color: white;
     border: none;
-    padding: 5px 10px;
-    border-radius: 20px;
-    transition: background-color .5s;
+    padding: 5px 15px;
+    border-radius: 30px;
+    transition: .3s;
 }
 
 .featured-tag button:nth-child(2) {
     background-color: rgb(168, 197, 216);
     color: rgb(43, 43, 153);
     border: none;
-    padding: 5px 10px;
-    border-radius: 20px;
-    transition: background-color .5s;
+    padding: 5px 15px;
+    border-radius: 30px;
+    transition: .3s;
 }
 .featured-tag button:hover{
-    background-color: orangered;
+    background-color: #6e64bd;
+    color: white;
 }
 
 .featured-apply-btn {
@@ -86,11 +87,11 @@
     color: white;
     padding: 10px 20px;
     border-radius: 20px;
-    transition: background-color .5s;
+    transition: .3s;
 }
 
 .featured-apply-btn a:hover {
-    background-color: rgb(5, 201, 201);
+    background-color: #22c4c4;
 }
 
 #pagination{
