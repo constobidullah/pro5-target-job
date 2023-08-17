@@ -108,12 +108,13 @@
     margin-top: 30px;
     color: white;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .keyworkds-item a {
     text-decoration: none;
     color: white;
+    font-size: .8rem;
     border: 1px solid;
     border-radius: 20px;
     padding: 5px 10px;
