@@ -94,26 +94,3 @@
     background-color: #22c4c4;
 }
 
-#pagination{
-    text-align: center;
-}
-
-#pagination li {
-    display: inline;
-}
-
-#pagination li a{
-    text-decoration: none;
-    padding: 10px;
-    color: #000;
-    border-radius: 5px;
-}
-
-#pagination li a.active{
-    background-color: rgb(19, 148, 19);
-    color: white;
-}
-
-#pagination li a:hover:not(.active){
-    background-color: gray;
-}
