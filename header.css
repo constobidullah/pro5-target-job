@@ -96,7 +96,7 @@
     padding: 15px 10px;
     border: none;
     border-radius: 50px;
-    transition: all 1s;
+    transition: .5s;
 }
 
 .find-job-btn button:hover {
@@ -117,7 +117,7 @@
     border: 1px solid;
     border-radius: 20px;
     padding: 5px 10px;
-    transition: background-color 1s;
+    transition: .5s;
 }
 
 .keyworkds-item a:hover {
