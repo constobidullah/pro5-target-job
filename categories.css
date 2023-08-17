@@ -66,6 +66,7 @@
 }
 
 .intro-one-text {
+    text-align: center;
     background-color: rgb(135, 85, 182);
     padding: 10px;
     margin: 0 55px;
@@ -73,7 +74,8 @@
     border-radius: 15px;
     position: absolute;
     bottom: 0;
-    left: 0;
+    left: 5%;
+    right: 5%;
     color: white;
 }
 
