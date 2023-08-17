@@ -146,11 +146,14 @@
 .intro-three-text {
     background-color: rgb(255, 87, 87);
     color: white;
-    padding: 10px 20px;
-    border-radius: 20px;
+    text-align: center;
+    font-size: 1.1rem;
+    padding: 15px 20px;
+    border-radius: 70px;
     position: absolute;
     top: 50%;
-    left: 30%;
+    left: 25%;
+    right: 25%;
 }
 .intro-three-text a{
     text-decoration: none;
