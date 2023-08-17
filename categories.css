@@ -16,14 +16,15 @@
 
 .categories-item {
     position: relative;
-    width: 130px;
-    height: 130px;
+    width: 150px;
+    height: 150px;
     background-color: rgb(93, 82, 186);
     color: white;
-    padding: 40px 10px;
+    font-weight: 600;
+    padding: 50px 20px;
     border: 7px solid #393374;
     border-radius: 50%;
-    transition: .5s;
+    transition: .3s;
 }
 
 .categories-item:hover {
