@@ -46,9 +46,11 @@
     color: white;
 }
 
+/* Header form style */
+
 .header-from {
     padding: 50px;
-    background-image: linear-gradient(to top, blueviolet, rgb(141, 93, 185));
+    background-color: #7f73eb;
     border-radius: 10px;
 }
 
