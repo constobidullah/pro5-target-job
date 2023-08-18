@@ -1,19 +1,20 @@
-/* Code remove your code write on next day */
-/* Code remove your code write on next day */
-/* Code remove your code write on next day */
-/* Code remove your code write on next day */
-/* Code remove your code write on next day */
-/* Code remove your code write on next day */
-/* Code remove your code write on next day */
-/* Code remove your code write on next day */
-/* Code remove your code write on next day */
-/* Code remove your code write on next day */
-/* Code remove your code write on next day */
-/* Code remove your code write on next day */
-/* Code remove your code write on next day */
-/* Code remove your code write on next day */
-/* Code remove your code write on next day */
-/* Code remove your code write on next day */
-/* Code remove your code write on next day */
-/* Code remove your code write on next day */
-/* Code remove your code write on next day */
+#review-item-container{
+    margin: 100px 0;
+}
+
+#review-parent{
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.review-item{
+    text-align: center;
+    background-color: aliceblue;
+    position: relative;
+}
+.review-item img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
