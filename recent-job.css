@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 #recent-job-container {
     margin: 0 50px 50px;
     display: grid;
