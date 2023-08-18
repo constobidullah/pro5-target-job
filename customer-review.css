@@ -1,20 +1,56 @@
-#review-item-container{
+#review-item-container {
     margin: 100px 0;
 }
 
-#review-parent{
+#review-parent {
     margin: 50px;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 30px;
 }
-.review-item{
+
+.review-item {
+    width: 300px;
+    height: 150px;
+    padding: 30px;
     text-align: center;
     background-color: aliceblue;
     position: relative;
+    transition: .5s;
 }
-.review-item img{
+
+.review-item img {
     width: 100px;
     height: 100px;
     border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: 35%;
+    right: 40%;
+}
+
+.review-item h2 {
+    margin: 30px 0 0 0;
+}
+
+.review-star {
+    margin: 0 0 30px 0;
+}
+
+.review-text {
+    background-color: transparent;
+    visibility: hidden;
+    transition: .3s;
+}
+
+
+/* Hover effect */
+.review-item:hover{
+    width: 300px;
+    height: 300px;
+}
+
+.review-item:hover .review-text{
+    visibility: visible;
 }
