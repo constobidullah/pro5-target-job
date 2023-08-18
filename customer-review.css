@@ -22,7 +22,7 @@
     text-align: center;
     background-color: aliceblue;
     position: relative;
-    transition: .5s;
+    transition: .3s;
     margin-bottom: 50px;
 }
 
@@ -48,7 +48,7 @@
     text-align: justify;
     background-color: transparent;
     opacity: 0;
-    transition: opacity .5s;
+    transition: opacity .4s;
 }
 
 
