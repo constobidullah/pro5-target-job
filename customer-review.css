@@ -27,13 +27,13 @@
 }
 
 .review-item img {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
     position: absolute;
-    top: -50px;
-    left: 35%;
-    right: 40%;
+    top: -40px;
+    left: 40%;
+    right: 35%;
 }
 
 .review-item h2 {
