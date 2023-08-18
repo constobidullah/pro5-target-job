@@ -15,7 +15,7 @@
 }
 
 #review-heading h2 {
-    transform: scale(3.5, 2.5);
+    transform: scaleY(2.4);
 }
 
 #review-parent {
