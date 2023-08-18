@@ -22,7 +22,7 @@
     text-align: center;
     background-color: aliceblue;
     position: relative;
-    transition: .3s;
+    transition: .5s;
     margin-bottom: 50px;
 }
 
@@ -45,10 +45,13 @@
 }
 
 .review-text {
-    text-align: justify;
+    padding: 10px;
+    text-align: center;
     background-color: transparent;
-    opacity: 0;
-    transition: opacity .4s;
+    /* opacity: 0;
+    transition: opacity .4s; */
+    position: absolute;
+    top: -1000000000000000000000%;
 }
 
 
@@ -59,5 +62,7 @@
 }
 
 .review-item:hover .review-text {
-    opacity: 1;
+    /* opacity: 1; */
+    top: 50%;
+    left: 0;
 }
