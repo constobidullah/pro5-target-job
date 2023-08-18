@@ -63,11 +63,7 @@ nav {
 }
 
 .header-item-link-container ul li a:hover {
-    color: white;
-    font-weight: 800;
-    border-bottom: 1px solid orangered;
-    border-radius: 30px;
-    background-color: rgb(114, 240, 240);
+    color: orangered;
 }
 
 
