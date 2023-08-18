@@ -47,7 +47,7 @@
     color: brown;
 }
 .review-text {
-    padding: 10px;
+    padding: 10px 20px;
     text-align: justify;
     background-color: transparent;
     /* opacity: 0;
