@@ -18,6 +18,7 @@
     background-color: aliceblue;
     position: relative;
     transition: .5s;
+    margin-bottom: 50px;
 }
 
 .review-item img {
