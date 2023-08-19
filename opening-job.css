@@ -59,6 +59,12 @@
     padding: 10px;
     border: 2px solid white;
     border-radius: 40px;
+    
+}
+
+.opening-job-account-link a:nth-child(1):hover{
+    background-color: white;
+    color: #5148a2;
 }
 
 .opening-job-account-link a:nth-child(2){
