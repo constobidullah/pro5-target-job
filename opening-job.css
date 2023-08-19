@@ -50,12 +50,22 @@
     font-size: 1.1rem;
 }
 
-.opening-job-account-link a{
+.opening-job-account-link a:nth-child(1){
+    text-decoration: none;
+    color: white;
+    margin: 0 30px 0;
+    font-size: 1.3rem;
+    background-color: transparent;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 40px;
+}
+
+.opening-job-account-link a:nth-child(2){
     text-decoration: none;
     color: white;
     margin: 0 0 0 30px;
     font-size: 1.3rem;
     background-color: transparent;
     padding: 10px;
-    border: 2px solid white;
 }
