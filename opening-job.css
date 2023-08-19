@@ -3,3 +3,59 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.opening-parent{
+    width: 100%;
+    height: 30vh;
+    margin-bottom: 100px;
+    position: relative;
+}
+
+.opening-parent img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.opening-parent .empty-div{
+    background-color: #5148a2;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    opacity: 0.5;
+}
+
+.opening-parent .opening-job-container{
+    color: white;
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    right: 10%;
+    opacity: 1;
+}
+
+.opening-job-container .opening-job-details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.opening-job-text h1{
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.opening-job-text p{
+    font-size: 1.1rem;
+}
+
+.opening-job-account-link a{
+    text-decoration: none;
+    color: white;
+    margin: 0 0 0 30px;
+    font-size: 1.3rem;
+    background-color: transparent;
+    padding: 10px;
+    border: 2px solid white;
+}
