@@ -153,6 +153,11 @@
         bottom: 10px;
     }
 
+    /* Featured jobs style here */
+    .featured-job-title-text h1 {
+        font-size: 1.5rem;
+        margin-bottom: 20px;
+    }
 
 
 
