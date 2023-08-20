@@ -81,6 +81,24 @@
         font-size: 1.5rem;
     }
 
+    .categories-item-parent {
+        padding: 20px 10px;
+        
+        justify-content: space-evenly;
+        
+        gap: 10px;
+    }
+
+
+
+
+
+
+
+
+
+
+
 
 
 
