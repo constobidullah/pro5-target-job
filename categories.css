@@ -15,10 +15,11 @@
 }
 
 .categories-item-parent {
-    padding: 20px 150px 20px 170px;
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    align-items: center;
+    padding: 20px 100px;
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
 .categories-item {
