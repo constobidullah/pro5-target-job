@@ -55,7 +55,15 @@
         transform: scaleY(1.0);
         font-weight: 800;
     }
-    
+
+    .find-job {
+        margin: 20px 0 30px 0;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+
 
 
 

@@ -89,7 +89,6 @@
 
 .find-job {
     margin-top: 20px;
-    /* margin-left: 0; */
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
