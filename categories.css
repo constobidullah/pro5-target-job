@@ -126,9 +126,9 @@
     transition: background-color .7s;
 }
 
-.intro-link a:nth-child(1):hover {
+.intro-link a:hover {
     background-color: white;
-    color: blue;
+    color: rgb(127, 127, 253);
 }
 
 .target-job-intro-child-three {
