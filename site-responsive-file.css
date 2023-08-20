@@ -299,8 +299,28 @@
     }
 
 
+    /* Customer Review  */
+    #review-item-container {
+        margin: 120px 0;
+    }
 
+    #review-heading h2 {
+        transform: scaleY(1.1);
+    }
 
+    #review-parent {
+        margin: 50px 10px;
+    }
+
+    .review-item {
+        width: 100%;
+    }
+
+    .review-item:hover {
+        max-width: 700px;
+        min-width: 350px;
+        height: 300px;
+    }
 
 
 
