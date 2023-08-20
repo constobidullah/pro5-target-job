@@ -230,7 +230,7 @@
         list-style: none;
     }
 
-    .hide{
+    .hide {
         display: none;
     }
 
@@ -273,17 +273,33 @@
         border-radius: 0 0 10px 10px;
     }
 
-    .image-inside-youtube{
+    .image-inside-youtube {
         left: 40%;
     }
 
+
+
     /* Recent job  */
+
     #recent-job-container {
-        margin: 0 10px 50px;
+        margin: 0 10px 70px;
         display: grid;
         grid-template-columns: 1fr;
         gap: 30px;
     }
+
+    #browse-job {
+        text-align: center;
+        margin: 0 10px 50px;
+    }
+    #browse-job a{
+        font-size: 1rem;
+        border-radius: 50px;
+    }
+
+
+
+
 
 
 
