@@ -123,7 +123,7 @@
     }
     
     .intro-one-text h1{
-        font-size: 1rem;
+        font-size: 2rem;
     }
 
     .target-job-intro-child-two {
@@ -133,6 +133,9 @@
         border-radius: 10px 10px 0 0;
     }
 
+    .target-job-intro-child-two h1 {
+        font-size:1.5rem;
+    }
 
 
 
