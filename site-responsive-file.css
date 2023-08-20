@@ -292,7 +292,8 @@
         text-align: center;
         margin: 0 10px 50px;
     }
-    #browse-job a{
+
+    #browse-job a {
         font-size: 1rem;
         border-radius: 50px;
     }
