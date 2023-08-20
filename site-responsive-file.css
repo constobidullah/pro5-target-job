@@ -67,7 +67,7 @@
         font-size: 1.1rem;
     }
 
-    .keyworkds-parent{
+    .keyworkds-parent {
         justify-content: center;
     }
 
@@ -77,14 +77,14 @@
 
     /* Categories part start here */
 
-    #categories-container h1{
+    #categories-container h1 {
         font-size: 1.5rem;
     }
 
     .categories-item-parent {
         margin: 40px 0 0 0;
         padding: 10px;
-        
+
         justify-content: space-evenly;
 
         row-gap: 40px;
@@ -121,8 +121,8 @@
     .target-job-intro-child-one img {
         border-radius: 10px 10px 0 0;
     }
-    
-    .intro-one-text h1{
+
+    .intro-one-text h1 {
         font-size: 2rem;
     }
 
@@ -134,9 +134,14 @@
     }
 
     .target-job-intro-child-two h1 {
-        font-size:1.5rem;
+        font-size: 1.8rem;
     }
 
+    .target-job-intro-child-two p {
+        font-size: 1.2rem;
+        color: white;
+        margin-bottom: 40px;
+    }
 
 
 
