@@ -78,7 +78,7 @@
     }
 
 
-    
+
     /* Header part responsive */
 
     .header-children-container {
@@ -436,9 +436,22 @@
     /* Footer style */
 
     #footer-container {
+        text-align: left;
         padding: 0 10px;
-        grid-template-columns: 1fr;
-        gap: 30px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    #newsletter-form {
+        margin-top: 10px;
+        width: 100%;
+        max-width: 700px;
+        min-width: 400px;
+        background-color: rgb(209, 247, 247);
+        padding: 30px;
+        border-radius: 5px;
     }
 
 
