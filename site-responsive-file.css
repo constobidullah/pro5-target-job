@@ -363,8 +363,14 @@
         transition: .5s;
     }
 
+    /* Footer style */
 
-
+    #footer-container {
+        padding: 0 10px;
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    
 
 
 
