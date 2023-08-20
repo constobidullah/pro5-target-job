@@ -167,6 +167,22 @@
         font-size: 1rem;
     }
 
+    .featured-job-main {
+        text-align: center;
+        padding: 10px;
+        margin: 0 10px 30px;
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 10px;
+    }
+
+    .featured-image img {
+        width: 30px;
+        height: 30px;
+        margin-right: 0;
+    }
+    
+
 
 
 
