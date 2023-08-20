@@ -190,10 +190,29 @@
         display: flex;
         align-items: center;
         justify-content: space-evenly;
+        flex-direction: column;
         flex-wrap: wrap;
         gap: 15px;
+        margin: 0 0 80px 0;
     }
-    
+
+    .featured-apply-btn {
+        position: absolute;
+        top: 85%;
+        right: 20%;
+        bottom: 0;
+        left: 20%;
+    }
+
+    .featured-apply-btn a {
+        text-decoration: none;
+        background-color: #5d52ba;
+        color: white;
+        padding: 5px 15px;
+        border-radius: 20px;
+        transition: .3s;
+    }
+
 
 
 
