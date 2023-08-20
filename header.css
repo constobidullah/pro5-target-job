@@ -137,7 +137,16 @@
     color: white;
     display: flex;
     justify-content:space-around;
+    align-items: center;
     flex-wrap: wrap;
+}
+
+.keyworkds-parent{
+    margin: 20px 0 0 0;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
 .keyworkds-item a {
