@@ -10,13 +10,13 @@
     margin-bottom: 3em;
 }
 
-#categories-container h1{
+#categories-container h1 {
     font-size: 3rem;
 }
 
 .categories-item-parent {
     padding: 20px 100px;
-    display:flex;
+    display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 20px;
@@ -87,7 +87,7 @@
     color: white;
 }
 
-.intro-one-text h1{
+.intro-one-text h1 {
     font-size: 1.1rem;
 }
 
@@ -115,12 +115,12 @@
     font-size: .8rem;
 }
 
-.intro-link a:nth-child(1) {
+.intro-link a {
     font-size: 1.1rem;
     border: 2px solid white;
     border-radius: 30px;
     text-decoration: none;
-    padding: 10px 30px;
+    padding: 10px 20px;
     margin-right: 20px;
     color: white;
     transition: background-color .7s;
@@ -129,21 +129,6 @@
 .intro-link a:nth-child(1):hover {
     background-color: white;
     color: blue;
-}
-
-.intro-link a:nth-child(2) {
-    font-size: 1rem;
-    text-decoration: none;
-    color: white;
-    transition: background-color .7s;
-}
-
-.intro-link a:nth-child(2):hover {
-    background-color: white;
-    color: burlywood;
-    border: 2px solid white;
-    border-radius: 30px;
-    padding: 10px 15px;
 }
 
 .target-job-intro-child-three {
@@ -169,7 +154,8 @@
     left: 25%;
     right: 25%;
 }
-.intro-three-text a{
+
+.intro-three-text a {
     text-decoration: none;
     color: white;
     font-weight: 700;
