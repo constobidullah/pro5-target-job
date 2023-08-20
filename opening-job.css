@@ -50,6 +50,10 @@
     font-size: 1.1rem;
 }
 
+.opening-job-account-link {
+    position: relative;
+}
+
 .opening-job-account-link a:nth-child(1) {
     text-decoration: none;
     color: white;
