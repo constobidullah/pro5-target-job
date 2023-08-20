@@ -277,6 +277,14 @@
         left: 40%;
     }
 
+    /* Recent job  */
+    #recent-job-container {
+        margin: 0 10px 50px;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
 
 
 }
