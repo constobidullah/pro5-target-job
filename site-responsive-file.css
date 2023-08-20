@@ -26,6 +26,7 @@
         left: 0;
         padding: 0 10px;
         grid-template-columns: 1fr;
+        gap: 30px;
     }
 
     .header-text h3 {
@@ -38,6 +39,10 @@
 
     .header-paragraph {
         margin: 20px 0 30px;
+    }
+
+    .header-text a {
+        font-size: 1rem;
     }
 
 
