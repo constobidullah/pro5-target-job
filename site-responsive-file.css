@@ -1,0 +1,52 @@
+@media screen and (max-width: 750px) and (min-width: 330px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    /* Header part responsive */
+
+    .header-children-container {
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        margin-bottom: 5em;
+    }
+
+
+    #header-children {
+        position: absolute;
+        top: 10%;
+        right: 0;
+        bottom: 10%;
+        left: 0;
+        background-color: transparent;
+        color: white;
+        padding: 10% 5%;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 50px;
+    }
+
+    .header-text h3 {
+        font-size: 1.5rem;
+    }
+
+    .header-paragraph p {
+        font-size: 1.4rem;
+        font-weight: 800;
+    }
+
+    .header-paragraph {
+        margin: 0 0 30px;
+    }
+
+    
+
+
+}
