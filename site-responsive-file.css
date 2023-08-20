@@ -51,6 +51,12 @@
         border-radius: 5px;
     }
 
+    .header-from h1 {
+        transform: scaleY(1.0);
+        font-weight: 800;
+    }
+    
+
 
 
 
