@@ -150,9 +150,9 @@
     padding: 5px 20px;
     border-radius: 40px;
     position: absolute;
-    top: 50%;
-    left: 25%;
-    right: 25%;
+    left: 5%;
+    right: 5%;
+    bottom: 10px;
 }
 
 .intro-three-text a {
