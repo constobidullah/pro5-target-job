@@ -58,6 +58,7 @@
     background-color: rgb(250, 55, 55);
     padding: 20px;
     border-radius: 50%;
+    cursor: pointer;
 }
 
 .image-inside-youtube a i {
