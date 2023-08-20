@@ -154,11 +154,18 @@
     }
 
     /* Featured jobs style here */
+    .featured-job-title-text {
+        padding: 0 10px;
+    }
+
     .featured-job-title-text h1 {
-        font-size: 1.5rem;
+        font-size: 1.8rem;
         margin-bottom: 20px;
     }
 
+    .featured-job-title-text p {
+        font-size: 1rem;
+    }
 
 
 
