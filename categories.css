@@ -80,9 +80,9 @@
     border-top: 20px solid rgb(34, 196, 196);
     border-radius: 15px;
     position: absolute;
-    bottom: 0;
-    left: 5%;
-    right: 5%;
+    bottom: 2%;
+    left: 2%;
+    right: 2%;
     color: white;
 }
 
@@ -126,7 +126,7 @@
 }
 
 .intro-link a:nth-child(2) {
-    font-size: 1.2rem;
+    font-size: 1rem;
     text-decoration: none;
     color: white;
     transition: background-color .7s;
@@ -137,7 +137,7 @@
     color: burlywood;
     border: 2px solid white;
     border-radius: 30px;
-    padding: 10px 30px;
+    padding: 10px 15px;
 }
 
 .target-job-intro-child-three {
@@ -156,8 +156,8 @@
     color: white;
     text-align: center;
     font-size: 1.1rem;
-    padding: 15px 20px;
-    border-radius: 70px;
+    padding: 5px 20px;
+    border-radius: 40px;
     position: absolute;
     top: 50%;
     left: 25%;
