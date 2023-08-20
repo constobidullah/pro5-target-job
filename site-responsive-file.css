@@ -239,6 +239,20 @@
 
 
 
+    /* Target help responsive style here */
+    #help-parent {
+        margin: 50px 10px;
+        grid-template-columns: 1fr;
+    }
+
+    .help-text {
+        padding: 10px;
+        border-radius: 15px 15px 0 0;
+    }
+
+
+
+
 
 
 }
