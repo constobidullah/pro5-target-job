@@ -45,9 +45,8 @@ nav {
 }
 
 .header-item-image-container img {
-    width: 80px;
-    height: 80px;
-    height: auto;
+    width: 60px;
+    height: 60px;
     border-radius: 190%;
 }
 
@@ -61,19 +60,19 @@ nav {
 
 
 /* Header item link container */
-.header-item-link-container ul {
+.header-item-link-container {
     list-style: none;
     display: flex;
 }
 
-.header-item-link-container ul li a {
+.header-item-link-container li a {
     text-decoration: none;
     font-size: 1.2rem;
     padding: 10px;
     transition: color .5s, border .5s;
 }
 
-.header-item-link-container ul li a:hover {
+.header-item-link-container li a:hover {
     color: orangered;
 }
 
