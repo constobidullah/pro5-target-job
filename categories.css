@@ -112,6 +112,7 @@
 .target-job-intro-child-two p a {
     text-decoration: none;
     color: #5a5394;
+    font-size: .8rem;
 }
 
 .intro-link a:nth-child(1) {
