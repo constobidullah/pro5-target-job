@@ -181,6 +181,18 @@
         height: 30px;
         margin-right: 0;
     }
+
+    .featured-title h1 {
+        margin-bottom: 15px;
+    }
+
+    .featured-details {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
     
 
 
