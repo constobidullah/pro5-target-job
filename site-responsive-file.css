@@ -410,7 +410,7 @@
 
     .opening-job-container .opening-job-details {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
         align-items: center;
         flex-direction: column;
         gap: 50px;
