@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    position: relative;
+}
+
 nav {
     height: 70px;
     padding: 20px;
@@ -11,6 +15,12 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-around;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 5;
 }
 
 
@@ -71,7 +81,6 @@ nav {
 /* Header register and login item */
 .header-item-login-register-btn {
     display: flex;
-
 }
 
 .header-item-login-register-btn button {
@@ -103,7 +112,7 @@ nav {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
-        
+
     }
 
     body {
