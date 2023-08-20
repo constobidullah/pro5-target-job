@@ -82,11 +82,32 @@
     }
 
     .categories-item-parent {
+        margin: 40px 0 0 0;
         padding: 20px 10px;
         
         justify-content: space-evenly;
-        
-        gap: 10px;
+
+        row-gap: 40px;
+    }
+
+    .categories-item {
+        width: 120px;
+        height: 120px;
+        padding: 30px 5px;
+    }
+
+    .categories-item-children {
+        background-color: #0dcaf0;
+        position: absolute;
+        top: -35%;
+        right: 25%;
+        left: 30%;
+        border-radius: 100%;
+    }
+
+    .categories-item-children p {
+        font-weight: normal;
+        font-size: 1rem;
     }
 
 
