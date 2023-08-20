@@ -137,6 +137,7 @@
     color: white;
     display: flex;
     justify-content:space-around;
+    flex-wrap: wrap;
 }
 
 .keyworkds-item a {
