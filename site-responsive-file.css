@@ -182,13 +182,7 @@
 
     .intro-link a {
         font-size: .8rem;
-        border: 2px solid white;
-        border-radius: 30px;
-        text-decoration: none;
-        padding: 10px 20px;
-        margin-right: 20px;
-        color: white;
-        transition: background-color .7s;
+        padding: 5px 10px;
     }
 
     /* target job intro style here */
