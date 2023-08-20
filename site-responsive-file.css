@@ -9,6 +9,7 @@
         overflow-x: hidden;
     }
 
+    /* Navbar responsive */
     nav {
         height: 70px;
         padding: 20px 5px;
@@ -61,7 +62,7 @@
         line-height: 50px;
         color: white;
     }
-    
+
 
     #toggle:checked~ul {
         left: 0;
@@ -76,6 +77,8 @@
         color: rgb(255, 170, 140);
     }
 
+
+    
     /* Header part responsive */
 
     .header-children-container {
