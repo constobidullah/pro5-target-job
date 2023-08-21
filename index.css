@@ -63,6 +63,8 @@ nav {
 .header-item-link-container {
     list-style: none;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .header-item-link-container li a {
@@ -81,6 +83,7 @@ nav {
 /* Header register and login item */
 .header-item-login-register-btn {
     display: flex;
+    margin-left: 50px;
 }
 
 .header-item-login-register-btn button {
