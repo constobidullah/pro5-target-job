@@ -73,6 +73,7 @@ nav {
     font-size: 1rem;
     padding: 10px;
     color: #000;
+    font-family: 'Montserrat', sans-serif;
     transition: color .5s, border .5s;
 }
 
