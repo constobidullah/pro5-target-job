@@ -53,8 +53,8 @@
         background-color: #968bf8;
         position: absolute;
         top: 70px;
-        left: 0;
-        transition: 1s;
+        left: -100%;
+        transition: .7s;
         z-index: 100;
     }
 
