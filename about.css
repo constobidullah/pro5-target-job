@@ -10,4 +10,12 @@
     background-image: url("./images/banner-image.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
+}
+
+#about-head .opacity-div {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(153, 43, 255);
+    opacity: .5;
 }
