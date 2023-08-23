@@ -106,8 +106,13 @@ body {
     border: 1px solid rgb(235, 234, 234);
     border-radius: 50px;
     padding: 5px 20px;
-    color: #f6b077;
+    color: #574f8e;
     transition: .5s;
+}
+
+.intro-link a:nth-child(1):hover{
+    background-color: #574f8e;
+    color: #fff;
 }
 
 .intro-image {
