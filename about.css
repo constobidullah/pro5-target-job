@@ -181,15 +181,18 @@ body {
 
 /* Service container and service item */
 #service-container {
-    margin: 50px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    margin: 50px 100px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
 }
 
 .service-item {
     background-color: aliceblue;
     text-align: center;
     padding: 30px 10px;
+    border-top: 25px solid #0dcaf0;
+    border-radius: 20px 20px 0 0;
 }
 
 .service-item i {
