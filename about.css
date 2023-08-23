@@ -145,6 +145,7 @@ body {
     position: absolute;
     right: 0;
     bottom:10px;
+    align-items: center;
 }
 
 .intro-image-experience p{
@@ -154,4 +155,10 @@ body {
     border-top: 10px solid #0dcaf0;
     color: #fff;
     font-family: 'Montserrat', sans-serif;
+}
+
+.intro-image-experience p span{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 0 10px 0 0;
 }
