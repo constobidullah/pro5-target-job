@@ -188,9 +188,20 @@ body {
 }
 
 .service-item {
-    background-color: aliceblue;
     text-align: center;
     padding: 30px 10px;
+    transition: 1s;
+    background-color: transparent;
+    border-top: 25px solid transparent;
+    border-radius: 20px 20px 0 0;
+}
+
+/* Service item hover effect */
+
+.service-item:hover{
+    background-color: aliceblue;
+    border-top: 25px solid #0dcaf0;
+    border-radius: 20px 20px 0 0;
 }
 
 .service-item i {
