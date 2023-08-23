@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- Index css file  -->
+    <link rel="stylesheet" href="index.css">
     <!-- About css file -->
     <link rel="stylesheet" href="about.css">
 
@@ -12,6 +14,45 @@
 </head>
 
 <body>
+
+    <header>
+        <nav>
+            <!-- item one -->
+            <input type="checkbox" id="toggle">
+            <label for="toggle" class="togglebar">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+            <!-- item two -->
+            <div class="header-item-image-container">
+                <a href="index.html"><img src="./images/job-header-logo.png" alt=""></a>
+                <div>
+                    <h1>Target job</h1>
+                    <p>Online job portal</p>
+                </div>
+            </div>
+            <!-- item three  -->
+            <ul class="header-item-link-container">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="#">Pages<i class="fa-solid fa-angle-down"></i></a>
+
+                    <ul class="dropdown">
+                        <li><a href="#">Job listing</a></li>
+                        <li><a href="#">Job Details</a></li>
+                    </ul>
+
+                </li>
+
+                <li><a href="#">Contact</a></li>
+                <div class="header-item-login-register-btn">
+                    <button>Register</button>
+                    <button>Login</button>
+                </div>
+            </ul>
+            <!-- item four -->
+
+        </nav>
+    </header>
 
     <main>
 
