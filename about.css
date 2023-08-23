@@ -94,11 +94,20 @@ body {
 
 .intro-link {
     display: flex;
+    align-items: center;
     gap: 20px;
 }
 
 .intro-link a {
     text-decoration: none;
+}
+
+.intro-link a:nth-child(1) {
+    border: 1px solid rgb(235, 234, 234);
+    border-radius: 50px;
+    padding: 5px 20px;
+    color: #f6b077;
+    transition: .5s;
 }
 
 .intro-image {
