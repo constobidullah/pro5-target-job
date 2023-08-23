@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#about-head {
+    height: 50vh;
+    width: 100%;
+    background-image: url("./images/banner-image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
