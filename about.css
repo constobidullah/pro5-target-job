@@ -16,6 +16,44 @@
 #about-head .opacity-div {
     height: 100%;
     width: 100%;
-    background-color: rgb(153, 43, 255);
+    background-color: #6050a4;
     opacity: .5;
+}
+
+#about-head .about-title {
+    position: absolute;
+    top: 25%;
+    left: 40%;
+}
+
+.about-title h2 {
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+.about-title ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    background-color: #fff;
+    background-origin: content-box;
+    border-radius: 30px;
+    padding: 10px 30px;
+}
+
+.about-title ul li:nth-child(1) a {
+    color: #6050a4;
+    text-decoration: none;
+    transition: .5s;
+}
+
+.about-title ul li:nth-child(1) a:hover {
+    color: rgb(255, 142, 67);
+}
+
+.about-title ul li {
+    color: gray;
 }
