@@ -11,7 +11,7 @@ body{
 #about-head {
     height: 50vh;
     width: 100%;
-    background-image: url("./images/banner-image.jpg");
+    background-image: url("./images/about-banner.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -20,8 +20,8 @@ body{
 #about-head .opacity-div {
     height: 100%;
     width: 100%;
-    background-color: #6050a4;
-    opacity: .5;
+    background-color: #6a57c0;
+    opacity: .7;
 }
 
 #about-head .about-title {
