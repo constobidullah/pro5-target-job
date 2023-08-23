@@ -144,6 +144,14 @@ body {
 .intro-image .intro-image-experience{
     position: absolute;
     right: 0;
-    bottom: 0;
+    bottom:10px;
 }
 
+.intro-image-experience p{
+    background-color: #5d52ba;
+    padding: 25px;
+    border-radius: 5px 0 0 5px;
+    border-top: 10px solid #0dcaf0;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
