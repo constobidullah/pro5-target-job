@@ -131,6 +131,7 @@ body {
 
 .intro-image {
     width: 50%;
+    position: relative;
 }
 
 .intro-image img {
@@ -139,3 +140,4 @@ body {
     height: auto;
     border-radius: 10px;
 }
+
