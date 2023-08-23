@@ -198,9 +198,22 @@ body {
 
 /* Service item hover effect */
 
-.service-item:hover{
+.service-item:hover {
     background-color: aliceblue;
     border-top: 25px solid #0dcaf0;
+    border-radius: 20px 20px 0 0;
+}
+
+.service-item:nth-child(2) {
+    background-color: aliceblue;
+    border-top: 25px solid #0dcaf0;
+    border-radius: 20px 20px 0 0;
+    transition: .7s;
+}
+
+.service-item:nth-child(2):hover {
+    background-color: transparent;
+    border-top: 25px solid transparent;
     border-radius: 20px 20px 0 0;
 }
 
@@ -214,12 +227,12 @@ body {
     margin: 0 0 20px 0;
 }
 
-.service-item h3{
+.service-item h3 {
     font-size: 2rem;
     font-family: 'Raleway', sans-serif;
     margin-bottom: 10px;
 }
 
-.service-item p{
+.service-item p {
     font-family: 'Raleway', sans-serif;
 }
