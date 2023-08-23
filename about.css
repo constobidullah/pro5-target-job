@@ -141,3 +141,9 @@ body {
     border-radius: 10px;
 }
 
+.intro-image .intro-image-experience{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
