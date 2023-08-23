@@ -8,6 +8,8 @@ body {
     font-family: 'Merriweather', serif;
 }
 
+/* About head */
+
 #about-head {
     height: 50vh;
     width: 100%;
@@ -33,6 +35,7 @@ body {
 .about-title h2 {
     color: #fff;
     font-size: 2.5rem;
+    font-family: 'Castoro Titling', cursive;
     font-weight: 900;
     margin-bottom: 30px;
 }
@@ -62,6 +65,7 @@ body {
     color: gray;
 }
 
+/* Introducing target job  */
 
 #introduce-target {
     padding: 100px 130px;
@@ -141,7 +145,7 @@ body {
     border-radius: 10px;
 }
 
-.intro-image .intro-image-experience{
+.intro-image .intro-image-experience {
     position: absolute;
     right: 25%;
     left: 25%;
@@ -149,7 +153,7 @@ body {
     align-items: center;
 }
 
-.intro-image-experience p{
+.intro-image-experience p {
     background-color: #5d52ba;
     padding: 10px 25px;
     border-radius: 5px 0 0 5px;
@@ -159,8 +163,17 @@ body {
     text-align: center;
 }
 
-.intro-image-experience p span{
+.intro-image-experience p span {
     font-size: 1.5rem;
     font-weight: 600;
     margin: 0 10px 0 0;
+}
+
+
+/* Service */
+
+.service-title{
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Castoro Titling', cursive;
 }
