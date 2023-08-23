@@ -64,7 +64,7 @@ body {
 
 
 #introduce-target {
-    margin: 70px ;
+    margin: 70px;
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -74,22 +74,31 @@ body {
     width: 400px;
 }
 
-.intro-text h3{
+.intro-text h3 {
     font-size: 2.2rem;
     font-family: 'Montserrat', sans-serif;
     margin-bottom: 10px;
 }
 
-.intro-text h4{
+.intro-text h4 {
     font-size: 1.3rem;
     font-family: 'Montserrat', sans-serif;
     margin-bottom: 20px;
 }
 
-.intro-text p{
+.intro-text p {
     font-size: 1rem;
     font-family: 'Montserrat', sans-serif;
     margin-bottom: 20px;
+}
+
+.intro-link {
+    display: flex;
+    gap: 20px;
+}
+
+.intro-link a {
+    text-decoration: none;
 }
 
 .intro-image {
