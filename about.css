@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: 'Merriweather', serif;
 }
 
@@ -60,4 +60,42 @@ body{
 
 .about-title ul li {
     color: gray;
+}
+
+
+#introduce-target {
+    margin: 70px ;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.intro-text {
+    width: 400px;
+}
+
+.intro-text h3{
+    font-size: 2.2rem;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 10px;
+}
+
+.intro-text h4{
+    font-size: 1.3rem;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 20px;
+}
+
+.intro-text p{
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.intro-image {
+    width: 400px;
+}
+
+.intro-image img {
+    width: 200px;
 }
