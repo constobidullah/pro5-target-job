@@ -64,15 +64,16 @@ body {
 
 
 #introduce-target {
-    margin: 70px;
+    padding: 100px 130px;
     width: 100%;
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 30px;
 }
 
 .intro-text {
-    width: 400px;
+    width: 50%;
 }
 
 .intro-text h3 {
@@ -129,9 +130,12 @@ body {
 }
 
 .intro-image {
-    width: 400px;
+    width: 50%;
 }
 
 .intro-image img {
-    width: 200px;
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
 }
