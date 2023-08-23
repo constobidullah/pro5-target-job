@@ -181,7 +181,7 @@ body {
 
 /* Service container and service item */
 #service-container {
-    margin: 50px 100px;
+    margin: 50px 100px 150px;
     display: flex;
     justify-content: center;
     gap: 20px;
