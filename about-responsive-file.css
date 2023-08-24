@@ -55,6 +55,10 @@
         width: 100%;
     }
 
+    .intro-image img {
+        border-radius: 10px 10px 0 0;
+    }
+
 
 
 
