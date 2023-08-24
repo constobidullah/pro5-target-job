@@ -12,5 +12,14 @@
     }
 
 
+    #about-head .about-title {
+        position: absolute;
+        top: 35%;
+        left: 5%;
+        right: 5%;
+    }
+
+
+
 
 }
