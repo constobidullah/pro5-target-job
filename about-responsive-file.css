@@ -46,4 +46,8 @@
     .intro-text p {
         font-size: .9rem;
     }
+
+    .intro-link {
+        justify-content: space-around;
+    }
 }
