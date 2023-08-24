@@ -459,8 +459,7 @@
 
     #newsletter-form {
         margin-top: 10px;
-        max-width: 700px;
-        min-width: 350px;
+        min-width: 355px;
         background-color: rgb(209, 247, 247);
         padding: 30px;
         border-radius: 5px;
