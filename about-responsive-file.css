@@ -59,6 +59,12 @@
         border-radius: 10px 10px 0 0;
     }
 
+    .intro-image .intro-image-experience {
+        right: 15%;
+        left: 15%;
+        bottom: 5px;
+    }
+
 
 
 
