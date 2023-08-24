@@ -42,4 +42,8 @@
     .intro-text h4 {
         font-size: 1.1rem;
     }
+
+    .intro-text p {
+        font-size: .9rem;
+    }
 }
