@@ -27,11 +27,12 @@
 
     /* Introducing target job */
     #introduce-target {
-        padding: 30px 10px 50px;
+        padding: 30px 10px;
         width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
+        flex-wrap: wrap;
         gap: 30px;
     }
 
