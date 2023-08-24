@@ -36,4 +36,7 @@
         width: 100%;
     }
 
+    .intro-text h3 {
+        font-size: 2rem;
+    }
 }
