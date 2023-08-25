@@ -95,3 +95,7 @@
     color: #fff;
     font-size: 1.3rem;
 }
+
+#search-btn:hover{
+    background-color: #0dcaf0;
+}
