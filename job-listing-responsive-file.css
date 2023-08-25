@@ -22,6 +22,11 @@
 
     #title-location {
         flex-direction: column;
+        margin: 0 0 50px 0;
+    }
+
+    #salary-level-remote-container {
+        flex-direction: column;
     }
 
 
