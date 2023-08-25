@@ -20,5 +20,9 @@
         text-align: center;
     }
 
+    #title-location {
+        flex-direction: column;
+    }
+
 
 }
