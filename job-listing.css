@@ -154,6 +154,7 @@
     align-items: center;
     gap: 10px;
     position: relative;
+    transition: .5s;
 }
 
 .newest-job p{
@@ -162,12 +163,14 @@
 
 .newest-job-link{
     position: absolute;
-    top: 30px;
+    top: -100%;
     width: 120px;
     background-color: #fff;
     padding: 10px;
     border-radius: 5px;
+    opacity: 0;
     z-index: 2;
+    transition: .5s;
 }
 
 .newest-job-link a{
@@ -176,4 +179,16 @@
     display: block;
     font-size: .7rem;
     line-height: 20px;
+}
+
+
+/* Hover effect */
+
+.newest-job:hover{
+    overflow: visible;
+}
+
+.newest-job:hover .newest-job-link{
+    top: 30px;
+    opacity: 1;
 }
