@@ -22,12 +22,18 @@
     font-family: 'Roboto', sans-serif;
 }
 
+#title-location{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
 .title{
     padding: 10px 20px;
     display: flex;
     gap: 10px;
     background-color: white;
-    border-radius: 40px;
+    border-radius: 40px;width: 100%;
 }
 
 .title i{
