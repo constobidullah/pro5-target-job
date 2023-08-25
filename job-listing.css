@@ -101,3 +101,14 @@
 #search-btn:hover{
     background-color: #0dcaf0;
 }
+
+#popular-keywords-container{
+    display: flex;
+    gap: 20px;
+}
+
+#popular-keywords-container p{
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+}
+
