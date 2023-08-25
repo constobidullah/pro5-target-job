@@ -17,10 +17,15 @@
 }
 
 .title{
-    padding: 10px;
+    padding: 10px 20px;
     display: flex;
     gap: 10px;
     background-color: white;
+    border-radius: 40px;
+}
+
+.title i{
+    color: #7f73eb;
 }
 
 .title input{
