@@ -14,6 +14,11 @@
         padding: 30px 5px;
     }
 
-    
+    .job-parent {
+        height:auto;
+        padding: 30px 10px;
+        text-align: center;
+    }
+
 
 }
