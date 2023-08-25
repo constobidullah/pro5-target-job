@@ -142,8 +142,14 @@
     justify-content: space-between;
 }
 
+.result-text .result-para{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
 .result-item{
     display: flex;
+    align-items: center;
     gap: 30px;
     color: gray;
 }
@@ -189,6 +195,6 @@
 }
 
 .newest-job:hover .newest-job-link{
-    top: 30px;
+    top:20px;
     opacity: 1;
 }
