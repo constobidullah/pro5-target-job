@@ -145,6 +145,7 @@
 .result-item{
     display: flex;
     gap: 30px;
+    color: gray;
 }
 
 .newest-job{
@@ -155,13 +156,24 @@
     position: relative;
 }
 
+.newest-job p{
+    color: black;
+}
+
 .newest-job-link{
     position: absolute;
     top: 30px;
     width: 120px;
-    color: #fff;
-    background-color: #7f73eb;
+    background-color: #fff;
     padding: 10px;
     border-radius: 5px;
+    z-index: 2;
 }
 
+.newest-job-link a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    font-size: .7rem;
+    line-height: 20px;
+}
