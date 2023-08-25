@@ -49,5 +49,8 @@
         margin: 0 0 10px 0;
     }
 
+    .result-text .result-para {
+        font-size: 1.3rem;
+    }
 
 }
