@@ -54,16 +54,27 @@
     font-family: 'Raleway', sans-serif;
 }
 
-.salary{
+#salary-level-remote-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.salary {
     padding: 15px 20px;
     border-radius: 40px;
     width: 100%;
     background-color: #fff;
     display: flex;
-    gap: 20px;
+    justify-content: space-between;
+    gap: 10px;
 }
 
-.salary select{
+.salary i{
+    color: #7f73eb;
+}
+
+.salary select {
     border: 0;
     outline: 0;
 }
