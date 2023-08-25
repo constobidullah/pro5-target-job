@@ -132,6 +132,12 @@
 
 
 /* Job Result */
+
 #job-result{
     padding: 0 70px 100px;
+}
+
+.result-text{
+    display: flex;
+    justify-content: space-between;
 }
