@@ -16,6 +16,12 @@
     padding: 50px 30px;
 }
 
+.job-parent h1{
+    color: #fff;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
 .title{
     padding: 10px 20px;
     display: flex;
