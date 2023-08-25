@@ -1,0 +1,13 @@
+@media screen and (max-width: 750px) and (min-width: 330px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+}
