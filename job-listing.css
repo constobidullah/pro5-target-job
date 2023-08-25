@@ -15,3 +15,8 @@
     border-radius: 10px;
     padding: 50px 30px;
 }
+
+.title{
+    display: flex;
+    background-color: white;
+}
