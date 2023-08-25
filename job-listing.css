@@ -141,3 +141,27 @@
     display: flex;
     justify-content: space-between;
 }
+
+.result-item{
+    display: flex;
+    gap: 30px;
+}
+
+.newest-job{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+}
+
+.newest-job-link{
+    position: absolute;
+    top: 30px;
+    width: 120px;
+    color: #fff;
+    background-color: #7f73eb;
+    padding: 10px;
+    border-radius: 5px;
+}
+
