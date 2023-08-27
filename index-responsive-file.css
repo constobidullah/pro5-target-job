@@ -68,6 +68,17 @@
         left: 0;
     }
 
+    .header-item-link-container li .dropdown {
+        width: 150px;
+        top: 32%;
+        left: 35%;
+    }
+    .header-item-link-container li .dropdown li a{
+        color: black;
+    }
+    .header-item-link-container li .dropdown li a:hover{
+        color: orangered;
+    }
     .header-item-login-register-btn {
         flex-direction: column;
         margin: 30px 0 0 0;

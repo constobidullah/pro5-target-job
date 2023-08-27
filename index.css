@@ -81,7 +81,7 @@ nav {
     color: orangered;
 }
 
-.header-item-link-container li .dropdown{
+.header-item-link-container li .dropdown {
     text-align: center;
     width: 150px;
     list-style-type: none;
@@ -95,7 +95,8 @@ nav {
     border-radius: 5px;
     display: none;
 }
-.header-item-link-container li:hover .dropdown{
+
+.header-item-link-container li:hover .dropdown {
     display: block;
 }
 
