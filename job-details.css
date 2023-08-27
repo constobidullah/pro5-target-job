@@ -101,7 +101,9 @@
 .job-description .description-title-summary p {
     font-family: 'Barlow', sans-serif;
 }
-
+.role{
+    margin: 0 0 40px 0;
+}
 .role h3{
     margin: 0 0 10px 0;
     font-family: 'Lato', sans-serif;
