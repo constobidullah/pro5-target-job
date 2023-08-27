@@ -267,37 +267,59 @@
     color: orangered;
 }
 
-.job-company-detail{
+.job-company-detail {
     margin: 0 0 20px 0;
 }
 
-.job-company-detail h3{
+.job-company-detail h3 {
     font-family: 'Titillium Web', sans-serif;
     margin: 0 0 10px 0;
 }
 
-.job-company-detail p{
+.job-company-detail p {
     font-family: 'Raleway', sans-serif;
 }
 
-.job-company-container .contact-info h4{
+.job-company-container .contact-info h4 {
     font-family: 'Titillium Web', sans-serif;
     font-size: 1.1rem;
     margin: 0 0 10px 0;
 }
 
-.contact-icon-detail .website, .call, .mail{
+.contact-icon-detail {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact-icon-detail .website,
+.call,
+.mail {
     display: flex;
     align-items: center;
-    gap: 5px;
+    gap: 8px;
 }
 
-.contact-icon-detail .website, .call, .mail,  i{
-    color: #5d52ba;
+.contact-icon-detail .website,
+.call,
+.mail,
+i {
+    color: #7157ba;
 }
 
-.website, .call, .mail, a{
+.website,
+.call,
+.mail,
+a {
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
     color: black;
+    transition: .3s;
+}
+
+.website,
+.call,
+.mail,
+a:hover{
+    color: orangered;
 }
