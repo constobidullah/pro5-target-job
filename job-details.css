@@ -101,40 +101,46 @@
 .job-description .description-title-summary p {
     font-family: 'Barlow', sans-serif;
 }
-.role{
+
+.role {
     margin: 0 0 40px 0;
 }
-.role h3{
+
+.role h3 {
     margin: 0 0 10px 0;
     font-family: 'Lato', sans-serif;
     font-size: 1.5rem;
 }
 
-.role p{
+.role p {
     font-family: 'Barlow', sans-serif;
 }
 
-.role p strong{
+.role p strong {
     font-weight: 900;
 }
 
-.requirement h4{
+.requirement {
+    margin: 0 0 40px 0;
+}
+
+.requirement h4 {
     margin: 0 0 10px 0;
     font-family: 'PT Serif', serif;
     font-size: 1.1rem;
 }
 
-.requirement ul{
+.requirement ul {
     margin: 0 0 0 30px;
     position: relative;
 }
 
-.requirement ul li{
+.requirement ul li {
     list-style-type: none;
     font-family: 'Barlow', sans-serif;
 }
 
-.requirement ul li::before{
+.requirement ul li::before {
     content: " ";
     width: 5px;
     height: 5px;
@@ -145,9 +151,10 @@
     top: 8px;
 }
 
-.requirement ul li:nth-child(2)::before{
+.requirement ul li:nth-child(2)::before {
     top: 28px;
 }
-.requirement ul li:nth-child(3)::before{
+
+.requirement ul li:nth-child(3)::before {
     top: 48px;
 }
