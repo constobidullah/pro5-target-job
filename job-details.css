@@ -29,3 +29,11 @@
     align-items: center;
     gap: 10px;
 }
+
+.job-description .job-address i{
+    color: #6277d1;
+}
+
+.job-description .job-address p{
+    font-family: 'Raleway', sans-serif;
+}
