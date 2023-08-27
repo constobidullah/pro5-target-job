@@ -88,6 +88,9 @@
 }
 
 /* Job description */
+.job-description .description-title-summary {
+    margin: 0 0 20px 0;
+}
 
 .job-description .description-title-summary h3 {
     margin: 0 0 10px 0;
@@ -95,6 +98,6 @@
     font-size: 2rem;
 }
 
-.job-description .description-title-summary p{
+.job-description .description-title-summary p {
     font-family: 'Barlow', sans-serif;
 }
