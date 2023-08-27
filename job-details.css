@@ -186,30 +186,30 @@
     color: #fff;
 }
 
-.apply-save-share .apply-save button:nth-child(2){
+.apply-save-share .apply-save button:nth-child(2) {
     border: 2px solid rgb(228, 228, 228);
     background-color: transparent;
     color: orangered;
 }
 
-.apply-save-share .apply-save button:nth-child(2):hover{
+.apply-save-share .apply-save button:nth-child(2):hover {
     border: 2px solid transparent;
     background-color: orangered;
     color: #fff;
 }
 
-.share{
+.share {
     display: flex;
     align-items: center;
     gap: 20px;
 }
 
-.share i{
+.share i {
     color: #7362d1;
     transition: .5s;
 }
 
-.share i:hover{
+.share i:hover {
     color: orangered;
 }
 
@@ -221,47 +221,48 @@
 
 
 /* Job company */
-.job-company{
+.job-company-container {
     padding: 30px 20px;
     box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.1);
     height: 400px;
 }
 
-.job-logo-favourite{
+.job-logo-favourite {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 0 30px 0;
 }
 
-.job-logo-title{
+.job-logo-title {
     display: flex;
     align-items: center;
     gap: 15px;
 }
 
-.job-logo-title img{
+.job-logo-title img {
     width: 50px;
     height: 50px;
     border-radius: 50%;
     padding: 10px;
-    box-shadow: 0 0 30px 0 rgba(0, 0, 0 , 0.1);
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.1);
 }
 
-.job-logo-title p{
+.job-logo-title p {
     font-family: 'Barlow', sans-serif;
     font-weight: 600;
 }
 
-.bookmark{
+.bookmark {
     display: flex;
     gap: 10px;
 }
 
-.bookmark i{
+.bookmark i {
     color: #5d52ba;
     transition: .3s;
 }
 
-.bookmark i:hover{
+.bookmark i:hover {
     color: orangered;
 }
