@@ -126,4 +126,20 @@
 
 .requirement ul{
     margin: 0 0 0 30px;
+    position: relative;
+}
+
+.requirement ul li{
+    list-style-type: none;
+}
+
+.requirement ul li::before{
+    content: " ";
+    width: 5px;
+    height: 5px;
+    border-radius: 100%;
+    background-color: green;
+    position: absolute;
+    left: -10px;
+    top: 5px;
 }
