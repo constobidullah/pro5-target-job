@@ -65,6 +65,11 @@
 .job-description .job-position p:nth-child(1) {
     background-color: #5d52ba;
     color: white;
+    transition: .5s;
+}
+
+.job-description .job-position p:nth-child(1):hover{
+    background-color: orangered;
 }
 
 .job-description .job-position p:nth-child(2) {
