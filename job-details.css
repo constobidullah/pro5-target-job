@@ -225,3 +225,8 @@
     padding: 30px 10px;
     box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2);
 }
+
+.job-logo-favourite{
+    display: flex;
+    justify-content: space-between;
+}
