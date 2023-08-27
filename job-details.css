@@ -164,6 +164,7 @@
 .apply-save-share {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .apply-save-share .apply-save button {
@@ -195,4 +196,10 @@
     border: 2px solid transparent;
     background-color: orangered;
     color: #fff;
+}
+
+.share{
+    display: flex;
+    align-items: center;
+    gap: 20px;
 }
