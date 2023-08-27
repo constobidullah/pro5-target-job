@@ -26,7 +26,7 @@
     padding: 0 0 10px 0;
 }
 
-.job-description .job-address, .job-time, .job-salary {
+.job-description .job-address, .job-time, .job-salary, .job-position {
     display: flex;
     align-items: center;
     gap: 10px;
@@ -43,4 +43,17 @@
 
 .job-description .job-time p, .job-salary p {
     font-family: 'Roboto', sans-serif;
+}
+
+.job-description .job-position{
+    margin: 0 0 0 30px;
+    gap: 20px;
+}
+
+.job-description .job-position p:nth-child(1){
+    background-color: #5d52ba;
+    color: white;
+    font-size: .8rem;
+    padding: 5px 10px;
+    border-radius: 40px;
 }
