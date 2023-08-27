@@ -123,3 +123,7 @@
     font-family: 'PT Serif', serif;
     font-size: 1.1rem;
 }
+
+.requirement ul{
+    margin: 0 0 0 30px;
+}
