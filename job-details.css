@@ -138,8 +138,15 @@
     width: 5px;
     height: 5px;
     border-radius: 100%;
-    background-color: green;
+    background-color: #5d52ba;
     position: absolute;
     left: -10px;
     top: 5px;
+}
+
+.requirement ul li:nth-child(2)::before{
+    top: 25px;
+}
+.requirement ul li:nth-child(3)::before{
+    top: 45px;
 }
