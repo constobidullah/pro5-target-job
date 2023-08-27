@@ -161,12 +161,19 @@
 
 /* Apply save share */
 
-.apply-save-share{
+.apply-save-share {
     display: flex;
     justify-content: space-between;
 }
 
-.apply-save-share .apply-save button{
+.apply-save-share .apply-save button {
     border: 0;
     padding: 10px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.apply-save-share .apply-save button:nth-child(1) {
+    background-color: rgb(255, 86, 25);
+    color: #fff;
 }
