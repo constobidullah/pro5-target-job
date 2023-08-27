@@ -73,12 +73,15 @@
         top: 32%;
         left: 35%;
     }
-    .header-item-link-container li .dropdown li a{
+
+    .header-item-link-container li .dropdown li a {
         color: black;
     }
-    .header-item-link-container li .dropdown li a:hover{
+
+    .header-item-link-container li .dropdown li a:hover {
         color: orangered;
     }
+
     .header-item-login-register-btn {
         flex-direction: column;
         margin: 30px 0 0 0;
@@ -156,11 +159,12 @@
     .find-job-btn button {
         font-size: 1.1rem;
     }
+
     #keyworkds {
         flex-direction: column;
         gap: 10px;
     }
-    
+
     .keyworkds-parent {
         justify-content: center;
     }
@@ -312,25 +316,21 @@
     }
 
     .pagination-container {
-        margin: 100px 0 0 0;
-        display: grid;
-        justify-content: center;
-        place-items: center;
-        text-align: center;
-        padding: 25px;
-        /* box-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94, 104, 121, 0.288); */
+        margin: 50px 0 0 0;
+        padding: 15px;
     }
 
-    .pagination {
-        text-align: center;
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        list-style: none;
+    .pagination li a {
+        font-size: .7rem;
+        width: 35px;
     }
 
-    .hide {
-        display: none;
+    .pagination li:first-child a {
+        width: 50px;
+    }
+
+    .pagination li:last-child a {
+        width: 50px;
     }
 
     /* pagination not finished */
