@@ -203,3 +203,12 @@
     align-items: center;
     gap: 20px;
 }
+
+.share i{
+    color: #7362d1;
+    transition: .5s;
+}
+
+.share i:hover{
+    color: orangered;
+}
