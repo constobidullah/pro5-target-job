@@ -131,6 +131,7 @@
 
 .requirement ul li{
     list-style-type: none;
+    font-family: 'Barlow', sans-serif;
 }
 
 .requirement ul li::before{
@@ -141,12 +142,12 @@
     background-color: #5d52ba;
     position: absolute;
     left: -10px;
-    top: 5px;
+    top: 8px;
 }
 
 .requirement ul li:nth-child(2)::before{
-    top: 25px;
+    top: 28px;
 }
 .requirement ul li:nth-child(3)::before{
-    top: 45px;
+    top: 48px;
 }
