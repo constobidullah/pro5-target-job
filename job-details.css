@@ -257,3 +257,11 @@
     gap: 10px;
 }
 
+.bookmark i{
+    color: #5d52ba;
+    transition: .3s;
+}
+
+.bookmark i:hover{
+    color: orangered;
+}
