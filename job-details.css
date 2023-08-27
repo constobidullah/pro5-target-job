@@ -171,9 +171,16 @@
     padding: 10px 20px;
     border-radius: 50px;
     cursor: pointer;
+    transition: .5s;
 }
 
 .apply-save-share .apply-save button:nth-child(1) {
     background-color: rgb(255, 86, 25);
+    color: #fff;
+    font-weight: 600;
+}
+
+.apply-save-share .apply-save button:nth-child(1):hover {
+    background-color: #0dcaf0;
     color: #fff;
 }
