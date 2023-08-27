@@ -291,3 +291,13 @@
     align-items: center;
     gap: 5px;
 }
+
+.contact-icon-detail .website, .call, .mail,  i{
+    color: #5d52ba;
+}
+
+.website, .call, .mail, a{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
