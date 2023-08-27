@@ -222,7 +222,7 @@
 
 /* Job company */
 .job-company-container {
-    padding: 30px 20px;
+    padding: 30px;
     box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.1);
     height: 400px;
 }
@@ -265,4 +265,8 @@
 
 .bookmark i:hover {
     color: orangered;
+}
+
+.job-company-detail h3{
+    font-family: 'Titillium Web', sans-serif;
 }
