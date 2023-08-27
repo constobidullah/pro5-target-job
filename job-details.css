@@ -37,3 +37,17 @@
 .job-description .job-address p{
     font-family: 'Raleway', sans-serif;
 }
+
+.job-description .job-time{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.job-description .job-time i{
+    color: #6277d1;
+}
+
+.job-description .job-time p{
+    font-family: 'Raleway', sans-serif;
+}
