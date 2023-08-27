@@ -156,7 +156,11 @@
     .find-job-btn button {
         font-size: 1.1rem;
     }
-
+    #keyworkds {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
     .keyworkds-parent {
         justify-content: center;
     }
