@@ -172,15 +172,21 @@
     border-radius: 50px;
     cursor: pointer;
     transition: .5s;
+    font-family: 'Roboto', sans-serif;
 }
 
 .apply-save-share .apply-save button:nth-child(1) {
     background-color: rgb(255, 86, 25);
     color: #fff;
-    font-weight: 600;
 }
 
 .apply-save-share .apply-save button:nth-child(1):hover {
     background-color: #0dcaf0;
     color: #fff;
+}
+
+.apply-save-share .apply-save button:nth-child(2){
+    border: 2px solid rgb(228, 228, 228);
+    background-color: transparent;
+    color: orangered;
 }
