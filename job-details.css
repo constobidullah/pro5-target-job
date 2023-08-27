@@ -117,3 +117,9 @@
 .role p strong{
     font-weight: 900;
 }
+
+.requirement h4{
+    margin: 0 0 10px 0;
+    font-family: 'PT Serif', serif;
+    font-size: 1.1rem;
+}
