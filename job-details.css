@@ -5,63 +5,42 @@
 }
 
 
-.job-details{
+.job-details {
     margin: 100px 50px;
     display: grid;
     grid-template-columns: 5fr 2fr;
     gap: 30px;
 }
 
-.job-info h2{
+.job-info h2 {
     margin-bottom: 20px;
     font-family: 'Titillium Web', sans-serif;
     font-size: 2.5rem;
 }
 
-.job-description{
+/* job description */
+
+.job-description {
     display: flex;
     gap: 60px;
     padding: 0 0 10px 0;
 }
 
-.job-description .job-address{
+.job-description .job-address, .job-time, .job-salary {
     display: flex;
     align-items: center;
     gap: 10px;
 }
 
-.job-description .job-address i{
+.job-description .job-address i, .job-time i, .job-salary i {
     color: #6277d1;
 }
 
-.job-description .job-address p{
+.job-description .job-address p {
     font-family: 'Raleway', sans-serif;
 }
 
-.job-description .job-time{
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
 
-.job-description .job-time i{
-    color: #6277d1;
-}
-
-.job-description .job-time p{
-    font-family: 'Roboto', sans-serif;
-}
-
-.job-description .job-salary{
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-
-.job-description .job-salary i{
-    color: #6277d1;
-}
-
-.job-description .job-salary p{
+.job-description .job-time p, .job-salary p {
     font-family: 'Roboto', sans-serif;
 }
