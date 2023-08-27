@@ -161,3 +161,7 @@
 
 /* Apply save share */
 
+.apply-save-share{
+    display: flex;
+    justify-content: space-between;
+}
