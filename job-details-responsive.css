@@ -12,7 +12,7 @@
 
     .job-details {
         margin: 20px 10px;
-        grid-template-columns: 1fr;
+        flex-direction: column-reverse;
     }
 
     .job-info h2 {
@@ -45,7 +45,7 @@
     }
 
     .job-company-container {
-        margin: 0 0 70px 0;
+        margin: 50px 0 0 0;
     }
 
 }
