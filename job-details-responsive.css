@@ -19,4 +19,13 @@
         font-size: 2rem;
     }
 
+    .job-info-container {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .job-info-container .job-position {
+        margin: 0 0 0 0;
+    }
+
 }
