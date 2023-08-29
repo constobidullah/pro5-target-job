@@ -28,4 +28,8 @@
         margin: 0 0 0 0;
     }
 
+    .requirement ul {
+        margin: 0 20px;
+    }
+
 }
