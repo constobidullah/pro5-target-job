@@ -347,7 +347,7 @@ a:hover {
 }
 
 
-#similar-jobs .browse-job-listing a{
+#similar-jobs .browse-job-listing a {
     font-family: 'Raleway', sans-serif;
     text-decoration: none;
     color: orangered;
@@ -358,7 +358,7 @@ a:hover {
 }
 
 
-#similar-jobs .browse-job-listing a:hover{
+#similar-jobs .browse-job-listing a:hover {
     color: #fff;
     background-color: orangered;
     border: 1px solid transparent;
