@@ -1,4 +1,4 @@
-@media screen and (max-width: 750px) and (min-width: 330px){
+@media screen and (max-width: 750px) and (min-width: 330px) {
 
     * {
         margin: 0;
@@ -6,7 +6,7 @@
         box-sizing: border-box;
     }
 
-    body{
+    body {
         overflow-x: hidden;
     }
 
@@ -40,12 +40,18 @@
     }
 
     .apply-save-share .apply-save {
-       display: flex;
-       gap: 20px;
+        display: flex;
+        gap: 20px;
     }
 
     .job-company-container {
         margin: 50px 0 0 0;
+    }
+
+    #similar-jobs {
+        margin: 50px 10px;
+        flex-direction: column;
+        gap: 30px;
     }
 
 }
