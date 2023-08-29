@@ -12,9 +12,8 @@
 
     .job-details {
         margin: 20px 10px;
-        display: grid;
         grid-template-columns: 1fr;
-        gap: 30px;
     }
+    
 
 }
