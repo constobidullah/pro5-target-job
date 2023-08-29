@@ -51,7 +51,8 @@
     #similar-jobs {
         margin: 50px 10px;
         flex-direction: column;
-        gap: 30px;
+        align-items: start;
+        gap: 40px;
     }
 
 }
