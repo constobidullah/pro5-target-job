@@ -308,9 +308,9 @@ i {
     color: #7157ba;
 }
 
-.website,
-.call,
-.mail,
+.website a,
+.call a,
+.mail 
 a {
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
