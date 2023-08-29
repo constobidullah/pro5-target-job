@@ -33,11 +33,19 @@
     }
 
     .apply-save-share {
-        justify-content:center;
         align-items: center;
         flex-direction: column;
         padding: 0 10px;
         gap: 20px;
+    }
+
+    .apply-save-share .apply-save {
+       display: flex;
+       gap: 20px;
+    }
+
+    .job-company-container {
+        margin: 0 0 70px 0;
     }
 
 }
