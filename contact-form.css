@@ -40,3 +40,9 @@
 .contact-form-data-container input, .contact-form-data-container textarea{
     width: 100%;
 }
+
+.contact-form-data-container input{
+    padding: 10px;
+    outline: 0;
+    border: 0;
+}
