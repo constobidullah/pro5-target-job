@@ -20,13 +20,13 @@
     margin: 20px 0 30px;
 }
 
-#contact-child-one .contact-title h2{
+#contact-child-one .contact-title h2 {
     margin-bottom: 10px;
     font-family: 'Open Sans', sans-serif;
     color: #5d52ba;
 }
 
-#contact-child-one .contact-title p{
+#contact-child-one .contact-title p {
     font-family: 'Raleway', sans-serif;
     color: black;
 }
@@ -37,12 +37,27 @@
     gap: 30px;
 }
 
-.contact-form-data-container input, .contact-form-data-container textarea{
+.contact-form-data-container input,
+.contact-form-data-container textarea {
     width: 100%;
 }
 
-.contact-form-data-container input{
+.contact-form-data-container input,
+.contact-form-data-container textarea {
     padding: 10px;
     outline: 0;
     border: 0;
+}
+
+.contact-form-data-container input[type="text"],
+.contact-form-data-container input[type="email"] {
+    background-color: #f3eeff;
+    border-radius: 3px;
+}
+
+.contact-form-data-container input[type="text"]::placeholder,
+.contact-form-data-container input[type="email"]::placeholder {
+    font-weight: 600;
+    letter-spacing: 5px;
+    color: rgb(194, 194, 194);
 }
