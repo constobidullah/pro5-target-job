@@ -141,11 +141,11 @@
 .contact-social-icon {
     background-color: #5d52ba;
     position: absolute;
-    right: -40px;
+    right: -45px;
     bottom: 0;    
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
     padding: 20px 10px;
     border-radius: 0 10px 10px 0;
 }
