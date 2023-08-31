@@ -85,3 +85,12 @@
     outline: 1px solid #5d52ba;
     outline-offset: 2px;
 }
+
+.contact-form-data-container input[type="submit"]{
+    background: linear-gradient(to left, #bce0ff, #7f73eb);
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.3rem;
+    border-radius: 3px;
+    cursor: pointer;
+}
