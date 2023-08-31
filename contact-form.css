@@ -50,14 +50,17 @@
 }
 
 .contact-form-data-container input[type="text"],
-.contact-form-data-container input[type="email"] {
+.contact-form-data-container input[type="email"],
+.contact-form-data-container textarea {
     background-color: #f3eeff;
     border-radius: 3px;
 }
 
 .contact-form-data-container input[type="text"]::placeholder,
-.contact-form-data-container input[type="email"]::placeholder {
+.contact-form-data-container input[type="email"]::placeholder,
+.contact-form-data-container textarea::placeholder {
     font-weight: 600;
-    letter-spacing: 5px;
+    letter-spacing: 3px;
     color: rgb(194, 194, 194);
 }
+
