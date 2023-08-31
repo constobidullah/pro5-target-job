@@ -4,8 +4,28 @@
     box-sizing: border-box;
 }
 
-#form-parent{
+#form-parent {
     margin: 100px 50px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+#contact-child-one {
+    margin: 0 0 0 20px;
+}
+
+#contact-child-one .contact-title {
+    margin: 20px 0 30px;
+}
+
+#contact-child-one .contact-title h2{
+    margin-bottom: 10px;
+    font-family: 'Open Sans', sans-serif;
+    color: #5d52ba;
+}
+
+#contact-child-one .contact-title p{
+    font-family: 'Raleway', sans-serif;
+    color: black;
 }
