@@ -97,6 +97,7 @@
 }
 
 #contact-child-two {
+    border-right: 2px solid gray;
     width: 100%;
     position: relative;
 }
@@ -139,4 +140,7 @@
 
 .contact-social-icon {
     background-color: #5d52ba;
+    position: absolute;
+    right: -40px;
+    bottom: 0;
 }
