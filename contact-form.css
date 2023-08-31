@@ -36,3 +36,7 @@
     flex-direction: column;
     gap: 30px;
 }
+
+.contact-form-data-container input, .contact-form-data-container textarea{
+    width: 100%;
+}
