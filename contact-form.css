@@ -94,3 +94,8 @@
     border-radius: 3px;
     cursor: pointer;
 }
+
+
+#contact-child-two img{
+    width: 100%;
+}
