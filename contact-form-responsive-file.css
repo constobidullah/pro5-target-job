@@ -21,6 +21,11 @@
         width: 100%;
     }
 
+    #contact-child-two {
+        border-right: 0 solid gray;
+        width: 100%;
+        position: relative;
+    }
 
 
 
