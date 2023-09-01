@@ -12,7 +12,7 @@
 
     #form-parent {
         margin: 0 5px;
-        flex-direction: column;
+        flex-direction: column-reverse;
         gap: 10px;
     }
 
