@@ -26,17 +26,18 @@
     position: relative;
     width: 150px;
     height: 150px;
-    background-color: rgb(93, 82, 186);
+    background-color: #5d52ba;
     color: white;
     font-weight: 600;
     padding: 50px 20px;
-    border: 7px solid #393374;
+    border: 10px solid #7f73eb;
     border-radius: 50%;
-    transition: .3s;
+    transition: .5s;
 }
 
 .categories-item:hover {
-    border: 7px solid rgb(243, 240, 240);
+    border: 10px solid rgb(255, 255, 255);
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2);
 }
 
 .categories-item-children {
