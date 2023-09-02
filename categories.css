@@ -78,13 +78,13 @@
     text-align: center;
     background-color: rgb(135, 85, 182);
     padding: 5px 10px;
-    margin: 0 55px;
+    margin: 0;
     border-top: 20px solid rgb(34, 196, 196);
     border-radius: 5px 5px 0 0;
     position: absolute;
     bottom: 0;
-    left: 5px;
-    right: 5px;
+    left: 5%;
+    right: 5%;
     color: white;
 }
 
