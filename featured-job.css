@@ -116,7 +116,8 @@
 }
 
 .featured-apply-btn a:hover {
-    background-color: #22c4c4;
+    background-color: #a8c5d8;
+    color: black;
 }
 
 .pagination-container {
