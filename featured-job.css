@@ -51,6 +51,12 @@
     margin-bottom: 5px;
 }
 
+.featured-title h1 a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+}
+
 .featured-details {
     display: flex;
     align-items: center;
