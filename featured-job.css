@@ -34,11 +34,11 @@
 }
 
 .featured-job-main:nth-child(5) {
-    box-shadow: 0 0 80px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 80px 0 rgba(0, 0, 0, 0.2);
 }
 
 .featured-job-main:hover {
-    box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.2);
 }
 
 .featured-image img {
