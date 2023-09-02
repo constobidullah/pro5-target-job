@@ -51,10 +51,16 @@
     margin-bottom: 5px;
 }
 
-.featured-title h1 a{
+.featured-title h1 a {
     text-decoration: none;
     color: black;
     font-family: 'Raleway', sans-serif;
+    transition: .5s;
+}
+
+.featured-title h1 a:hover {
+    color: #5d52ba;
+    text-shadow: 0 -3px 0 #5d52ba;
 }
 
 .featured-details {
