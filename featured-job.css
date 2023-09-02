@@ -12,10 +12,12 @@
 
 .featured-job-title-text h1 {
     font-size: 3rem;
+    font-family: 'Roboto', sans-serif;
 }
 
 .featured-job-title-text p {
     font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .featured-job-main {
