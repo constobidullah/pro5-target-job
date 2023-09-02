@@ -30,12 +30,12 @@
 #header-children {
     position: absolute;
     top: 15%;
-    right: 5%;
-    bottom: 15%;
-    left: 5%;
+    right: 0;
+    bottom: 25%;
+    left: 0;
     background-color: transparent;
     color: white;
-    padding: 10% 5%;
+    padding: 10% 2%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 50px;
