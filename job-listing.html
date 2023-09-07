@@ -106,7 +106,6 @@
         </nav>
     </header>
 
-
     <section id="about-head">
         <div class="opacity-div">
 
@@ -120,7 +119,6 @@
             </ul>
         </div>
     </section>
-
 
     <section>
 
@@ -144,11 +142,12 @@
                 <div id="salary-level-remote-container">
                     <div class="salary">
                         <i class="fa-solid fa-money-bill-wave"></i>
-                        <select>
-                            <option selected>Salary Range</option>
-                            <option>15000K - 20000K</option>
-                            <option>35000K -46000K</option>
-                        </select>
+                        <input type="text" list="salary">
+                        <datalist id="salary">
+                            <option value="2000-2500"></option>
+                            <option value="2000-3500"></option>
+                            <option value="2000-4500"></option>
+                        </datalist>
                     </div>
                     <div class="salary">
                         <i class="fa-solid fa-laptop-code"></i>
