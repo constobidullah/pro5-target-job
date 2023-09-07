@@ -70,7 +70,7 @@
     gap: 10px;
 }
 
-.salary i {
+.salary i, .level i, .position i {
     color: #7f73eb;
 }
 
