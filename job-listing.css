@@ -49,7 +49,7 @@
 
 .title input::placeholder {
     letter-spacing: 5px;
-    font-weight: 700;
+
     color: rgb(126, 124, 124);
     font-family: 'Raleway', sans-serif;
 }
@@ -62,12 +62,18 @@
 }
 
 .salary, .level, .position  {
-    padding: 15px 20px;
+    padding: 15px 0 15px 20px;
     border-radius: 40px;
     width: 100%;
     background-color: #fff;
     display: flex;
     gap: 10px;
+}
+
+.salary input::placeholder, .level input::placeholder, .position input::placeholder{
+    letter-spacing: 5px;
+    color: rgb(126, 124, 124);
+    font-family: 'Raleway', sans-serif;
 }
 
 .salary i, .level i, .position i {
