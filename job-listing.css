@@ -191,7 +191,7 @@
 .newest-job-link {
     position: absolute;
     top: -100%;
-    width: 150px;
+    width: 100px;
     background-color: #fff;
     padding: 10px;
     border-radius: 5px;
@@ -204,7 +204,7 @@
     text-decoration: none;
     color: black;
     display: block;
-    font-size: .9rem;
+    font-size: .7rem;
     line-height: 20px;
     transition: .5s;
 }
@@ -221,7 +221,7 @@
 }
 
 .newest-job:hover .newest-job-link {
-    top: 20px;
+    top: 25px;
     opacity: 1;
 }
 
