@@ -67,7 +67,7 @@
     width: 100%;
     background-color: #fff;
     display: flex;
-    gap: 15%;
+    gap: 10px;
 }
 
 .salary i {
