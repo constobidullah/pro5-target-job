@@ -93,6 +93,13 @@
     outline: 0;
 }
 
+.salary input:focus,
+.level input:focus,
+.position input:focus {
+    border: 0;
+    outline: 0;
+}
+
 #search-btn {
     text-align: center;
     background-color: #5d52ba;
